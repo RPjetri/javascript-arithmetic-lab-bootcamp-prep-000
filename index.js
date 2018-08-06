@@ -25,3 +25,7 @@ function dec(a) {
 function makeInt(a) {
   return (a.toString())
 }
+
+function preserveDecimal(a) {
+  return parseFloat(a)
+}
